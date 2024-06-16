@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indoor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <img class="logo" src="./assets/iNDOOR logo.svg" alt="" />
+          <ul class="nav__links">
+            <li>
+              <a href="#landing" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#essentials" class="nav__link">Plants</a>
+            </li>
+            <li>
+              <a
+                href="mailto:limlinganangela@gmail.com"
+                class="nav__link nav__link--primary"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+              </li>
+              <li class="menu__list">
+                <a href="#essentials" class="menu__link" onclick="closeMenu()"
+                  >Plants</a
+                >
+              </li>
+              <li class="menu__list">
+                <a
+                  href="mailto:limlinganangela@gmail.com"
+                  class="menu__link no__cursor"
+                  onclick="closeMenu()"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="header__container">
+          <div class="header__description">
+            <h1 class="">Pampanga's most acclaimed house plants online</h1>
+            <h2>Cultivate Your <span class="green">iNDOOR </span>Eden</h2>
+            <a href="./plants.html">
+              <button class="btn">Browse house plants</button>
+            </a>
+          </div>
+          <figure class="header__img--wrapper">
+            <img src="./assets/4 pots.svg" class="svg__img" alt="" />
+          </figure>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="highlights">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              Why choose <span class="green">iNDOOR</span>
+            </h2>
+            <div class="highlight__wrapper">
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-truck"></i>
+                </div>
+                <h3 class="highlight__subtitle">Convenience</h3>
+                <p class="highlight__para">
+                  Enjoy doorstep service without additional costs.
+                </p>
+              </div>
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-tag"></i>
+                </div>
+                <h3 class="highlight__subtitle">Affordable</h3>
+                <p class="highlight__para">
+                  Get your hands on popular house plants for as little as
+                  P150.00.
+                </p>
+              </div>
+              <div class="highlight">
+                <div class="highlight__img">
+                  <i class="fas fa-star"></i>
+                </div>
+                <h3 class="highlight__subtitle">Quality</h3>
+                <p class="highlight__para">
+                  Elevate your space with top-notch, enduring houseplants.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="essentials">
+        <div class="container">
+          <div class="row">
+            <h2 class="section__title">
+              Essential <span class="green">House Plants</span>
+            </h2>
+            <div class="plants">
+              <div class="plant">
+                <figure class="plant__img--wrapper">
+                  <img
+                    src="./plants/2Small Euphorbia Tithymaloides .png"
+                    alt=""
+                    class="plant__img"
+                  />
+                </figure>
+                <div class="plant__title">Small Euphorbia</div>
+                <div class="plant__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="plant__price">
+                  <span class="plant__price--normal">P200.00</span>P150.00
+                </div>
+              </div>
+              <div class="plant">
+                <figure class="plant__img--wrapper">
+                  <img
+                    src="./plants/3Aglaonema _Chinese Evergreen_.png"
+                    alt=""
+                    class="plant__img"
+                  />
+                </figure>
+                <div class="plant__title">Chinese Evergreen</div>
+                <div class="plant__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="plant__price">
+                  <span class="plant__price--normal">P200.00</span>P150.00
+                </div>
+              </div>
+              <div class="plant">
+                <figure class="plant__img--wrapper">
+                  <img
+                    src="./plants/7Snake Plant.png"
+                    alt=""
+                    class="plant__img"
+                  />
+                </figure>
+                <div class="plant__title">Snake Plant</div>
+                <div class="plant__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="plant__price">
+                  <span class="plant__price--normal">P200.00</span>P150.00
+                </div>
+              </div>
+              <div class="plant">
+                <figure class="plant__img--wrapper">
+                  <img
+                    src="./plants/4West Indian Lantana .png"
+                    alt=""
+                    class="plant__img"
+                  />
+                </figure>
+                <div class="plant__title">Song of India</div>
+                <div class="plant__ratings">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="plant__price">
+                  <span class="plant__price--normal">P200.00</span>P150.00
+                </div>
+              </div>
+              <a href="./plants.html">
+                <button class="btn">More house plants</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="steps">
+        <div class="container">
+          <div class="row row__column">
+            <h2 class="section__title">
+              <span class="green">Plant</span> Care Tips
+            </h2>
+            <div class="steps">
+              <div class="step__wrapper">
+                <span class="step__number">#1</span>
+                <div class="step__description--wrapper">
+                  <h3 class="step__title">Assess Environment</h3>
+                  <h5 class="step__para">
+                    Evaluate the plant's placement in terms of light exposure,
+                    temperature, and humidity levels to ensure it matches the
+                    plant's requirements.
+                  </h5>
+                </div>
+              </div>
+              <div class="step__wrapper">
+                <span class="step__number">#2</span>
+                <div class="step__description--wrapper">
+                  <h3 class="step__title">Watering Schedule</h3>
+                  <h5 class="step__para">
+                    Establish a consistent watering routine based on the plant's
+                    needs, allowing the soil to slightly dry out between
+                    waterings.
+                  </h5>
+                </div>
+              </div>
+              <div class="step__wrapper">
+                <span class="step__number">#3</span>
+                <div class="step__description--wrapper">
+                  <h3 class="step__title">Light Adjustment</h3>
+                  <h5 class="step__para">
+                    Monitor the plant's response to its current light conditions
+                    and adjust its placement accordingly to optimize growth and
+                    prevent light stress.
+                  </h5>
+                </div>
+              </div>
+              <div class="step__wrapper">
+                <span class="step__number">#4</span>
+                <div class="step__description--wrapper">
+                  <h3 class="step__title">Maintenance Tasks</h3>
+                  <h5 class="step__para">
+                    Regularly remove dead or yellowing leaves, dust the foliage
+                    and periodically check for pests or signs of disease.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row row__column">
+          <a href="">
+            <figure class="footer__logo">
+              <img
+                src="./assets/iNDOOR logo.svg"
+                alt=""
+                class="footer__logo--img"
+              />
+            </figure>
+          </a>
+          <div class="footer__list">
+            <a href="#" class="footer__link">Home</a>
+            <a href="#highlights" class="footer__link">Highlights</a>
+            <a href="#essentials" class="footer__link">Essentials</a>
+            <a
+              href="mailto:limlinganangela@gmail.com"
+              class="footer__link no__cursor"
+              >Contact</a
+            >
+          </div>
+          <div class="footer__copyright">Copyright &copy 2020 iNDOOR</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
